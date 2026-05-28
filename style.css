@@ -237,13 +237,13 @@
 #es-rc #es-rc-content.es-rc-content .es-join__wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: end;
+  justify-content: center;
 }
 #es-rc #es-rc-content.es-rc-content .es-join__photo {
   padding: 20px 20px 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
 }
 #es-rc #es-rc-content.es-rc-content .es-join__texts {
   padding: 20px;
@@ -272,6 +272,12 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: right;
+}
+#es-rc #es-rc-content.es-rc-content .es-efficiency__wrapper--first {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
 }
 #es-rc #es-rc-content.es-rc-content .es-efficiency__photo {
   order: 2;
@@ -302,6 +308,14 @@
   justify-content: center;
 }
 #es-rc #es-rc-content.es-rc-content .es-efficiency__title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f2c68f;
+  padding-bottom: 15px;
+  line-height: 1;
+  text-align: left;
+}
+#es-rc #es-rc-content.es-rc-content .es-efficiency__title--first {
   font-size: 30px;
   font-weight: 700;
   color: #f2c68f;
@@ -506,6 +520,9 @@
   #es-rc #es-rc-content.es-rc-content .es-efficiency__wrapper {
     flex-wrap: nowrap;
   }
+  #es-rc #es-rc-content.es-rc-content .es-efficiency__wrapper--first {
+    flex-wrap: nowrap;
+  }
   #es-rc #es-rc-content.es-rc-content .es-efficiency__photo {
     order: 2;
     width: 50%;
@@ -523,6 +540,9 @@
     width: 50%;
   }
   #es-rc #es-rc-content.es-rc-content .es-efficiency__title {
+    font-size: 22px;
+  }
+  #es-rc #es-rc-content.es-rc-content .es-efficiency__title--first {
     font-size: 22px;
   }
   #es-rc #es-rc-content.es-rc-content .es-efficiency__text {
@@ -565,6 +585,9 @@
     font-size: 17px;
   }
   #es-rc #es-rc-content.es-rc-content .es-efficiency__title {
+    font-size: 28px;
+  }
+  #es-rc #es-rc-content.es-rc-content .es-efficiency__title--first {
     font-size: 28px;
   }
   #es-rc #es-rc-content.es-rc-content .es-efficiency__text {
@@ -627,6 +650,9 @@
     margin: 0 0 0 auto;
   }
   #es-rc #es-rc-content.es-rc-content .es-efficiency__title {
+    font-size: 32px;
+  }
+  #es-rc #es-rc-content.es-rc-content .es-efficiency__title--first {
     font-size: 32px;
   }
   #es-rc #es-rc-content.es-rc-content .es-efficiency__text {
@@ -706,6 +732,9 @@
   #es-rc #es-rc-content.es-rc-content .es-efficiency__title {
     width: 75%;
     margin: 0 auto;
+    font-size: 38px;
+  }
+  #es-rc #es-rc-content.es-rc-content .es-efficiency__title--first {
     font-size: 38px;
   }
   #es-rc #es-rc-content.es-rc-content .es-efficiency__text {
