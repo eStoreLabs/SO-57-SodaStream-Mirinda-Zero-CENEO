@@ -747,3 +747,8 @@
     font-size: 47px;
   }
 }
+@media (min-width: 1200px) {
+  #es-rc #es-rc-content.es-rc-content .es-footer__bottles {
+    margin-left: 0px;
+  }
+}
